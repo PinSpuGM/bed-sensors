@@ -179,3 +179,9 @@ On every MQTT publish:
 - Keep display helper functions separate: `drawHeader()`, `drawIPRow()`, `drawRow(int y, uint16_t color, const char* line1, const char* line2 = nullptr)`, `drawUI()`.
 - Keep MQTT logic in `mqttLoop()` called from `loop()`.
 - No RTOS tasks, no threads — single-core Arduino `setup()` / `loop()` pattern only.
+
+## Photos
+
+Bed Room Sensors  
+![bed-sensors](bed-sensors.jpg)
+
