@@ -138,19 +138,19 @@ void mqttLoop()
   {
     lastTempPub = now;
     nextTempMs = random(8000, 12001);
-    mqttPublish("/home/bed/dht/temp", temperature);
+    mqttPublish("home/bed/dht/temp", temperature);
   }
   if (now - lastHumidPub >= nextHumidMs)
   {
     lastHumidPub = now;
     nextHumidMs = random(8000, 12001);
-    mqttPublish("/home/bed/dht/humid", humidity);
+    mqttPublish("home/bed/dht/humid", humidity);
   }
   if (now - lastLightPub >= nextLightMs)
   {
     lastLightPub = now;
     nextLightMs = random(8000, 12001);
-    mqttPublish("/home/bed/ldr/light", lightPct);
+    mqttPublish("home/bed/ldr/light", lightPct);
   }
 }
 

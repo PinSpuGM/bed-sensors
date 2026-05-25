@@ -134,9 +134,9 @@ Boot sequence: show `"Starting..."` centered at (67, 120), wait 2 s, clear scree
 
 | Topic | Published value |
 |---|---|
-| `/home/bed/dht/temp` | temperature, formatted `"%.2f"` |
-| `/home/bed/dht/humid` | humidity, formatted `"%.2f"` |
-| `/home/bed/ldr/light` | lightPct, formatted `"%.2f"` |
+| `home/bed/dht/temp` | temperature, formatted `"%.2f"` |
+| `home/bed/dht/humid` | humidity, formatted `"%.2f"` |
+| `home/bed/ldr/light` | lightPct, formatted `"%.2f"` |
 
 MQTT client ID: `"bed-sensors"` (no username/password).
 
