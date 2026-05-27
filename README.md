@@ -78,10 +78,10 @@ TFT_eSPI must be configured entirely via build flags — no `User_Setup.h` file.
 ```cpp
 #define SIMULATE_SENSORS 1       // 1 = simulated random walk, 0 = real DHT22 + LDR
 
-#define WIFI_SSID "CPE-IOT-03"
-#define WIFI_PASS "sripatum"
+#define WIFI_SSID "<ssid>"
+#define WIFI_PASS "<pass>"
 
-#define MQTT_SERVER "192.168.103.140"
+#define MQTT_SERVER "<mqtt.serv.ip.num>"
 #define MQTT_PORT   1883
 
 #define UPDATE_MS   2000         // sensor read + display refresh interval in ms
